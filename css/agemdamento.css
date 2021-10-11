@@ -1,0 +1,40 @@
+.agendamento {
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.agendamento p:first-child {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #FC6027;
+    margin: 2rem 0;
+}
+
+.agendamento ul li {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+.agendamento .subtitulo {
+    font-size: 1.2rem;
+    margin: 0 0 1.5rem 0;
+}
+.agendamento p strong {
+    color: #FC6027;
+}
+
+.btn {
+    background-color: #4B4FA1;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FC6027;
+}
