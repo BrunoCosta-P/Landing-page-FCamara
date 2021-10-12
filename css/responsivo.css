@@ -1,0 +1,62 @@
+@media screen and (max-width: 830px) {
+    aside {
+        display: none;
+    }
+
+    .imgEscritorio {
+        display: none;
+    }
+    .containerIntrocucao p {
+        width: 100%;
+    }
+
+    .missao {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .temperatura, .mascara, .alcool, .distanciamento, .indisposto {
+        height: auto;
+    }
+
+    .temperaturaImg, .mascaraImg, .alcoolImg, .distanciamentoImg, .indispostoImg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+    .master {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container1, .container2, .container3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .direitos {
+        margin-top: 1rem;
+    }
+
+    .container3 {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .introducao p:first-child {
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .introducao {
+        height: auto;
+    } 
+}
